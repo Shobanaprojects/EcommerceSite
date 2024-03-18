@@ -33,10 +33,6 @@
         padding: 5px 15px;
     }
 
-    .product-container {
-        width: 150px;
-    }
-
     .product-container img {
         height: 100px;
     }
@@ -63,7 +59,7 @@
         font-size: 12px;
     }
 
-    .btnbgcolor {
+    .product-container .btnbgcolor {
         width: 40px;
         height: 34px;
     }
@@ -83,7 +79,9 @@
     }
     .product-price {
         width: 85px;
-
+    }
+    .margin-left {
+        margin-left: 16%;
     }
 }
 
@@ -108,7 +106,7 @@
         margin-top: -7px;
         margin-left: 38px;
     }
-    .tab-margin-left{
+    .margin-left{
         margin-left: 52%;
     }
     .navbar-toggler {
