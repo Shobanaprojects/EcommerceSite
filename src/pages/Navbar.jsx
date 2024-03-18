@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav class="navbar navbar-expand-lg bg-color">
                 <div class="container">
                     <a class="navbar-brand fs-2" href="#">Trendy Traverse</a>
-                    <div className="d-block d-sm-none">
+                    <div className="d-xl-none tab-margin-left">
                         <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                             <li class="nav-item">
                                 <a class="nav-link" aria-disabled="true">  <FavoriteBorderIcon /> <ShoppingCartOutlinedIcon /></a>

@@ -91,6 +91,7 @@ body {
     background: #e4dce2;
     border-left: 8px solid #4F0341;
     padding: 5px 12px;
+    width: 90px;
 }
 
 .product-quantity {

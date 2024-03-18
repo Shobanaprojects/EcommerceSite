@@ -21,18 +21,21 @@ const CartProduct = ({ item }) => {
     return (
         <div className="cart-container">
             <div className="row">
-                <div className="col-md-2 cartimg">
+                <div className="col-lg-2 col-sm-3 cartimg">
                     <img src={item.thumbnail} />
                 </div>
-                <div className="col-md-10 p-4">
+                <div className="col-lg-10 col-sm-9 p-4">
+                    <div className="product-description">{item.description}</div>
                     <div className="d-flex justify-content-between">
-                        <div className="product-description">{item.description}</div>
-                        <div className="product-price">$ {item.price}</div>
-                    </div>
-                    <div className="col-md-2 d-flex justify-content-between">
-                        <div><CustomButton btnStyle={"product-incrementbtn"} title={"-"} btnonClick={() => { reduceItem(item) }} /></div>
-                        <div className="product-quantity">{item.quantity}</div>
-                        <div><CustomButton btnStyle={"product-decrementbtn"} title={"+"} btnonClick={() => { addItem(item) }} /></div>
+                        <div className="col-lg-2 col-sm-4 d-flex justify-content-between">
+                            <div><CustomButton btnStyle={"product-incrementbtn"} title={"-"} btnonClick={() => { reduceItem(item) }} /></div>
+                            <div className="product-quantity">{item.quantity}</div>
+                            <div><CustomButton btnStyle={"product-decrementbtn"} title={"+"} btnonClick={() => { addItem(item) }} /></div>
+                        </div>
+                        <div className="col-lg-2 col-sm-3 mt-2">
+                            <div className="product-price">$ {item.price}</div>
+                        </div>
+
                     </div>
                     <div className="d-flex justify-content-between mt-3">
                         <div className="item-total">

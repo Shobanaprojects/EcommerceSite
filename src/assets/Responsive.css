@@ -81,6 +81,10 @@
         font-size: 14px;
         width: 60px;
     }
+    .product-price {
+        width: 85px;
+
+    }
 }
 
 
@@ -89,5 +93,33 @@
     .login-section {
         margin: 4% 30%;
     }
-
+    .navbar-toggler span {
+        color: #fff;
+    }
+    .navbar-collapse ul {
+        width: 130px;
+    }
+    .navbar-collapse ul a {
+        padding: 5px 15px;
+    }
+    .addtocart-count {
+        height: 30px;
+        width: 30px;
+        margin-top: -7px;
+        margin-left: 38px;
+    }
+    .tab-margin-left{
+        margin-left: 52%;
+    }
+    .navbar-toggler {
+        border: none !important;
+        padding: 3px !important;
+    }
+    .modal-xl{
+        margin: 2% 6% !important;
+     
+    }   
+    .modal-content{
+        width: 680px !important;   
+    }
 }
